@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.aftermath" name="Aftermath Repo" version="0.0.1" provider-name="Aftermath">
+	<extension point="xbmc.addon.repository" name="Aftermath Repo">
+		<info compressed="false">https://github.com/surfacingx/Aftermath/master/addons.xml</info>
+		<checksum>https://github.com/surfacingx/Aftermath/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/surfacingx/Aftermath/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Aftermath Repository</summary>
+		<description>Home of the Aftermath wizard</description>
+		<platform>all</platform>
+	</extension>
+</addon>
