@@ -17,7 +17,7 @@
   </extension>
 </addon>
 
-<addon id="repository.aftermath" name="Aftermath Repo" version="0.0.2" provider-name="Aftermath">
+<addon id="repository.aftermath" name="Aftermath Repo" version="0.0.3" provider-name="Aftermath">
 	<extension point="xbmc.addon.repository" name="Aftermath Repo">
 		<info compressed="false">https://raw.githubusercontent.com/surfacingx/Aftermath/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/surfacingx/Aftermath/master/addons.xml.md5</checksum>
