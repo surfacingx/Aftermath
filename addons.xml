@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.aftermath" name="Aftermath Wizard" version="0.0.3" provider-name="Aftermath">
+<addon id="plugin.video.aftermath" name="Aftermath Wizard" version="0.0.4" provider-name="Aftermath">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
