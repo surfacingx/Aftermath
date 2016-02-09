@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.aftermathwiz" name="[COLOR dodgerblue]Aftermath[/COLOR] Wizard" version="0.0.5" provider-name="Aftermath">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Aftermath Wizard</summary>
+    <description lang="en">Aftermath Wizard allows you to get access to the latest Aftermath Custom Builds: Aftermath Zephyr, Aftermath Silvo, Aftermath Simple, Aftermath Simple Lite.
+	
+	Credits to all Addon Developers.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
