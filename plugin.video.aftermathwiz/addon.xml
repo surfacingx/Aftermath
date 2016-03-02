@@ -10,9 +10,7 @@
   <extension point="xbmc.service" library="buildcheck.py" start="startup" />
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Aftermath Wizard</summary>
-    <description lang="en">Aftermath Wizard allows you to get access to the latest Aftermath Custom Builds: Aftermath Zephyr, Aftermath Silvo, Aftermath Simple, Aftermath Simple Lite.
-	
-	Credits to all Addon Developers.</description>
+    <description lang="en">Aftermath Wizard allows you to get access to the latest Aftermath Custom Builds: Aftermath Zephyr, Aftermath Silvo, Aftermath Simple, Aftermath Simple Lite.[CR][CR]Credits to all Addon Developers.</description>
     <platform>all</platform>
   </extension>
 </addon>
