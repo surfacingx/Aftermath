@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.aftermathwiz" name="[COLOR dodgerblue]Aftermath[/COLOR] Wizard - BETA" version="0.0.453" provider-name="Aftermath">
+<addon id="plugin.video.aftermathwiz" name="[COLOR dodgerblue]Aftermath[/COLOR] Wizard - BETA" version="0.0.454" provider-name="Aftermath">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
