@@ -15,7 +15,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.aftermathwiz" name="[COLOR dodgerblue]Aftermath[/COLOR] Wizard - BETA" version="0.0.456" provider-name="Aftermath">
+<addon id="plugin.video.aftermathwiz" name="[COLOR dodgerblue]Aftermath[/COLOR] Wizard - BETA" version="0.0.457" provider-name="Aftermath">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
