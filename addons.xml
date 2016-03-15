@@ -19,6 +19,8 @@
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
+	<import addon="plugin.video.aftermath" />
+	<import addon="repository.aftermath" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video executable</provides>
