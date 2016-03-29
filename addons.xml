@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.program.apollocosmic" name="ApolloCosmic Wizard" version="1.1" provider-name="ApolloCosmic">
+<addon id="plugin.program.apollocosmic" name="ApolloCosmic Wizard" version="1.2" provider-name="ApolloCosmic">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -15,7 +15,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.aftermath" name="[COLOR dodgerblue]Aftermath[/COLOR] [COLOR white]Wizard[/COLOR] " version="0.1.0" provider-name="Aftermath">
+<addon id="plugin.video.aftermath" name="[COLOR dodgerblue]Aftermath[/COLOR] [COLOR white]Wizard[/COLOR] " version="0.1.1" provider-name="Aftermath">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
