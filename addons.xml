@@ -1,26 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.aftermath" name="Aftermath Wizard" version="0.0.4" provider-name="Aftermath">
+<addon id="plugin.program.apollocosmic" name="ApolloCosmic Wizard" version="1.1" provider-name="ApolloCosmic">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">	ApolloCosmic Wizard</summary>
+    <description lang="en">Easy Update Your Kodi Install, from a number of Kodi Builders</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.aftermath" name="[COLOR dodgerblue]Aftermath[/COLOR] [COLOR white]Wizard[/COLOR] " version="0.1.0" provider-name="Aftermath">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video executable</provides>
+        <provides>executable</provides>
   </extension>
+  <extension point="xbmc.service" library="buildcheck.py" start="startup" />
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Aftermath Wizard</summary>
-    <description lang="en">Aftermath Wizard allows you to get access to the latest Aftermath Custom Builds: Aftermath Zephyr, Aftermath Simple, Aftermath Simple Lite.[CR][CR]Credits to all Addon Developers.</description>
+    <description lang="en">Aftermath Wizard allows you to get access to the latest Aftermath Custom Builds: Aftermath Simple, Aftermath Simple Lite.[CR][CR]Credits to all Addon Developers.</description>
     <platform>all</platform>
   </extension>
 </addon>
 
-<addon id="plugin.video.aftermathplaylist" name="[COLOR dodgerblue]Aftermath[/COLOR] Playlist" version="0.0.1" provider-name="Aftermath">
+<addon id="plugin.video.aftermathplaylists" name="[COLOR dodgerblue]Aftermath[/COLOR] [COLOR white]Playlists[/COLOR] " version="0.0.2" provider-name="Aftermath">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
-	<import addon="plugin.video.aftermath" />
-	<import addon="repository.aftermath" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video executable</provides>
@@ -33,23 +47,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.aftermathwiz" name="[COLOR dodgerblue]Aftermath[/COLOR] Wizard - BETA" version="0.0.458" provider-name="Aftermath">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.addon.common" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="buildcheck.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Aftermath Wizard</summary>
-    <description lang="en">Aftermath Wizard allows you to get access to the latest Aftermath Custom Builds: Aftermath Zephyr, Aftermath Silvo, Aftermath Simple, Aftermath Simple Lite.[CR][CR]Credits to all Addon Developers.</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="repository.aftermath" name="[COLOR dodgerblue]Aftermath[/COLOR] Repo" version="0.0.42" provider-name="Aftermath">
+<addon id="repository.aftermath" name="[COLOR dodgerblue]Aftermath[/COLOR] Repo" version="0.0.43" provider-name="Aftermath">
 	<extension point="xbmc.addon.repository" name="Aftermath Repo">
 		<info compressed="false">https://raw.githubusercontent.com/surfacingx/Aftermath/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/surfacingx/Aftermath/master/addons.xml.md5</checksum>
