@@ -33,7 +33,6 @@
 <addon id="plugin.video.aftermath" name="[COLOR dodgerblue]Aftermath[/COLOR] [COLOR white]Wizard[/COLOR] [COLOR red]OLD[/COLOR]" version="0.1.4" provider-name="Aftermath">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.addon.common" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>executable</provides>
