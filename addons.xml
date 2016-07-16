@@ -30,7 +30,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.aftermath" name="[COLOR dodgerblue]Aftermath[/COLOR] [COLOR white]Wizard[/COLOR] [COLOR red]OLD[/COLOR]" version="0.1.5" provider-name="Aftermath">
+<addon id="plugin.video.aftermath" name="[COLOR dodgerblue]Aftermath[/COLOR] [COLOR white]Wizard[/COLOR] [COLOR red]OLD[/COLOR]" version="0.1.6" provider-name="Aftermath">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
