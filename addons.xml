@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.program.aftermath" name="[B][COLOR dodgerblue]Aftermath[/COLOR] [COLOR white]Wizard[/COLOR][/B]" version="0.2.1" provider-name="Surfacingx">
+<addon id="plugin.program.aftermath" name="[B][COLOR dodgerblue]Aftermath[/COLOR] [COLOR white]Wizard[/COLOR][/B]" version="0.2.4" provider-name="Surfacingx">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
